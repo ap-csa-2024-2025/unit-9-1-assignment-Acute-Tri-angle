@@ -1,7 +1,6 @@
 public class SpecialtyCoffee extends Coffee{
     private String flavor;
     public SpecialtyCoffee(){
-        super("small", false, 1, "latte");
         this.flavor = "vanilla";
     }
     public SpecialtyCoffee(String size, String type, String flavor){
